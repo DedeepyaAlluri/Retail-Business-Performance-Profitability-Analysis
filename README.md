@@ -28,5 +28,6 @@ Cap discounts at 10% and require approval above that.
 Only 180 orders, and simulated data. I did not test whether high-discount orders are concentrated in low-margin products, so this shows an association, not proof of cause.
 
 ## Files
-`Dashboard Of Retail Profitability.png
+`![Retail Profitability Dashboard](./Dashboard%20Of%20Retail%20Profitability.png)
+
 
