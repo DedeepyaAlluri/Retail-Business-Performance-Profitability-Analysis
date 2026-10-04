@@ -1,97 +1,32 @@
-# Retail Business Performance & Profitability Analysis
+# Retail Profitability & Discount Analysis
 
-## Project Overview
+## Question
+Do higher discounts hurt profitability, and which products and categories are weakest on margin?
 
-This project analyzes retail business performance to identify key factors impacting revenue, profitability, margins, and discount effectiveness.
+## Data
+180 simulated retail orders (2025) with sales, profit, discount (0–20%), category, product and region.
 
-The objective was to evaluate whether revenue growth is translating into sustainable profitability and to provide actionable business recommendations through data analysis and executive reporting.
+## Method
+Excel pivot tables for exploration; Power BI dashboard with measures such as
+Margin % = total profit ÷ total sales (not an average of order margins).
 
----
+## Findings
+| Discount level | Margin |
+|---|---|
+| 0–10% | 14.3% |
+| 15–20% | 4.5% |
 
-## Business Problem
+- Orders at 15%+ discount: 41% of sales, 18% of profit.
+- Furniture: highest sales, lowest margin (8.6% vs. 11.6% for Technology).
+- Table is the lowest-margin product (6.5%).
+- Margins by region were similar (about 10%), so region is not a driver.
 
-Revenue growth does not always result in stronger profitability.
+## Recommendation
+Cap discounts at 10% and require approval above that.
 
-This analysis investigates:
+## Limitations
+Only 180 orders, and simulated data. I did not test whether high-discount orders are concentrated in low-margin products, so this shows an association, not proof of cause.
 
-* Profitability by category
-* Regional performance
-* Discount impact on margins
-* Product-level profitability
-* Business risks affecting sustainable growth
-
----
-
-## Dataset
-
-Sample retail sales dataset containing:
-
-* Order Date
-* Region
-* Segment
-* Category
-* Product
-* Sales
-* Profit
-* Discount
-* Quantity
-* Profit Margin %
-
----
-
-## Tools Used
-
-* Microsoft Excel
-* Power BI
-
----
-
-## Key Performance Indicators (KPIs)
-
-* Total Sales
-* Total Profit
-* Profit Margin %
-* Average Discount
-* Total Orders
-
----
-
-## Key Findings
-
-* Revenue growth remains strong across categories.
-* Higher discount levels appear associated with margin pressure.
-* Furniture generates strong revenue but weaker profitability efficiency.
-* Certain products remain profitable despite discounting strategies.
-
----
-
-## Business Risks
-
-* Discount dependency
-* Margin inconsistency
-* Weak profit conversion
-
----
-
-## Recommendations
-
-* Review high-discount products that fail to generate proportional profitability improvements.
-* Prioritize high-margin products.
-* Monitor profitability KPIs consistently.
-
----
-
-## Dashboard Preview
-## Dashboard Preview
-
-![Power BI Dashboard](PowerBI_Dashboard.png)
-
-
----
-
-## Project Outcome
-
-Developed an executive-style retail performance dashboard to evaluate profitability drivers, discount effectiveness, regional performance, and revenue sustainability through KPI reporting and business analysis.
-
-The project demonstrates FP&A-oriented thinking, business performance evaluation, and executive reporting using Excel and Power BI.
+## Files
+`Dashboard Of Retail Profitability.png
 
